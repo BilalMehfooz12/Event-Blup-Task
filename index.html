@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <img src="./3.jpg" style="width: 300px; height: 250px;"  id="abc"/>
+   <br>
+   <br>
+   <button onclick="funcs()">Blup On</button>
+   <!-- <button onclick="func()" disabled:true&false.>Blup of</button> -->
+   <button onclick="func()">Blup of</button>
+
+</body>
+</html>
+<script>
+    function funcs()
+    {
+        document.getElementById("abc").src="./3.jpg"
+    }
+    function func()
+    {
+        document.getElementById("abc").src="./4.jpg"
+    }
+</script>
